@@ -1,11 +1,12 @@
 {
   "name": "qtools",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a library of useful functions for JavaScript projects such as Node/Express APIs etc.",
   "type": "module",
   "main": "qfil.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",

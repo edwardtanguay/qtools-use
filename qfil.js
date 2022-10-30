@@ -81,7 +81,7 @@ export const getRecordsFromCsvFile = (pathAndFileName, delimiter = ',') => {
 				} else if (records.length === 0) {
 					resolve([]);
 				} else {
-					records = [records[0]]; //test, remove later
+					// records = [records[0]]; //test, remove later
 					resolve(records);
 				}
 			}
